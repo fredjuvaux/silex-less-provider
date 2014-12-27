@@ -19,6 +19,7 @@
     },
     "autoload": {
         "psr-0": {
+            "LESS": "src"
         }
     },
     "minimum-stability": "dev"
