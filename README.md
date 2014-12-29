@@ -73,6 +73,7 @@ $app->register(new LessServiceProvider(), array(
     'less.cache_dir'    => __DIR__.'/../var/cache/', // specify one directory for caching files
     'less.target_dir'   => __DIR__.'/../web/css/', // specify one directory for compiled files
 ));
+```php
 
 ## Use
 
