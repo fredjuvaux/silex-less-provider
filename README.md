@@ -25,7 +25,7 @@ php composer.phar require fredjuvaux/silex-less-provider dev-master
 Or add to the dependencies in your projects composer.json file and update your dependencies::
 
 ```bash
-"fredjuvaux/silex-less-provider": "*"
+"fredjuvaux/silex-less-provider": "dev-master"
 ```
 
 ```bash
