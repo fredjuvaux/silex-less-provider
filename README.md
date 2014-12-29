@@ -19,7 +19,7 @@ You basically have three options to add this extension to your Silex project. We
 http://packagist.org/packages/fredjuvaux/silex-less-provider
 
 ```bash
-php composer.phar require fredjuvaux/doctrine-less-provider
+php composer.phar require fredjuvaux/doctrine-less-provider dev-master
 ```
 
 Or add to the dependencies in your projects composer.json file and update your dependencies::
