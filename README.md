@@ -73,3 +73,8 @@ $app->register(new LessServiceProvider(), array(
     'less.cache_dir'    => __DIR__.'/../var/cache/', // specify one directory for caching files
     'less.target_dir'   => __DIR__.'/../web/css/', // specify one directory for compiled files
 ));
+
+## Use
+
+The Less files have to be in sources directories. The files are cached and regenerated if it's needed.
+In the Twig view, you have to call the css generated files (in less.target_dir).
