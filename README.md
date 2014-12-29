@@ -69,7 +69,7 @@ Registering the Less Service Provider is rather straight forward:
 use Less\Provider\LessServiceProvider;
 
 $app->register(new LessServiceProvider(), array(
-    'less.source_dir'   => array(__DIR__.'/../web/less/'), // specify one or serveral directories
-    'less.cache_dir'    => __DIR__.'/../var/cache/', // specify one directory
+    'less.source_dir'   => array(__DIR__.'/../web/less/'), // specify one or serveral directories for sources
+    'less.cache_dir'    => __DIR__.'/../var/cache/', // specify one directory for caching files
     'less.target_dir'   => __DIR__.'/../web/css/', // specify one directory for compiled files
 ));
